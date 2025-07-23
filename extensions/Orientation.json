@@ -1,0 +1,30 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://simplifier.net/CustomFHIRQuestionnaireExtensions/DisplayOrientationType",
+  "name": "DisplayOrientationType",
+  "status": "active",
+  "description": "Defines the display orientation for a questionnaire item.",
+  "fhirVersion": "5.0.0",
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "snapshot": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Display orientation",
+        "definition": "Defines the display orientation for a questionnaire item.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
